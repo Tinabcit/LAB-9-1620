@@ -3,13 +3,19 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    body {
+    div > p {
          background-color: #3e8fb0;
     }
 }
 
+@media screen and (max-width: 800px) {
+    div > p {
+        background-color: #ebbcba;
+    }
+}
+
 @media screen and (max-width: 600px) {
-    body {
+    div > p {
          background-color: #56949f;
     }
 }
